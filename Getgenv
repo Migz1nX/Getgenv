@@ -1,3 +1,6 @@
-h
-print("safeloo") 
+-- W-Azure
+print("W_Azure") 
+safeload("https://raw.githubusercontent.com/Migz1nX/Getgenv/refs/heads/main/GenvGet") 
+-- Redz
+print("Redz") 
 safeload("https://raw.githubusercontent.com/Migz1nX/Getgenv/refs/heads/main/Getgen") 
