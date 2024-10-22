@@ -1,15 +1,3 @@
-local function safeLoad(url)
-    local success, errorMsg = pcall(function()
-        loadstring(game:HttpGet(url))()
-    end)
-    
-    if success then
-        print("Script executado com sucesso!")
-    else
-        warn("Erro ao executar o script: " .. errorMsg)
-    end
-end
-
 local gameId = game.PlaceId
 
 if gameId == 2753915549 or gameId == 7449423635 then
@@ -22,5 +10,5 @@ print("Redz")
 safeload("https://raw.githubusercontent.com/Migz1nX/Getgenv/refs/heads/main/Getgen") 
 
 else
-    print("Jogo não reconhecido. Nenhum script foi executado.")
+    print("Nenhum script foi executado.")
 end
