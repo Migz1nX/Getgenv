@@ -1,10 +1,9 @@
-local gameId = game.PlaceId
+print("2Exc") 
 
-if gameId == 2753915549 or gameId == 7449423635 then
 -- W-Azure
 print("W_Azure") 
 safeload("https://raw.githubusercontent.com/Migz1nX/Getgenv/refs/heads/main/GenvGet") 
-gameId == 7449423635 then
+
 -- Redz
 print("Redz") 
 safeload("https://raw.githubusercontent.com/Migz1nX/Getgenv/refs/heads/main/Getgen") 
